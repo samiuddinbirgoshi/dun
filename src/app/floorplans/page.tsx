@@ -21,7 +21,7 @@ export default function Hero() {
 
   const slides = [
     {
-      image: "/9.jpg",
+      image: "/1aaa.jpg",
       title: "Floor Plans & Pricing", // Proper space between words
       // subtitle: "Waterfront Living in Windsor",
     },
@@ -32,8 +32,9 @@ export default function Hero() {
     { name: "Amenities", href: "/amenties" },
     { name: "Floor Plans & Pricing", href: "/floorplans" },
     { name: "Gallery", href: "/gallery" },
+       { name: "Residents", href: "/maintanace"},
     { name: "Contact", href: "/contact" },
-       { name: "Maintainace Requests", href: "/maintanace"},
+      //  { name: "Maintainace Requests", href: "/maintanace"},
   ];
 
   useEffect(() => {

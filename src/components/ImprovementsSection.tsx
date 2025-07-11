@@ -28,8 +28,8 @@ export default function ImprovementsSection() {
         {/* Content grid */}
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Building Enhancements */}
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
-            <div className="p-8">
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col h-full">
+            <div className="p-8 flex-grow">
               <h3 className="text-2xl font-light text-gray-900 mb-8">Building Enhancements</h3>
               
               <ul className="space-y-6">
@@ -129,8 +129,8 @@ export default function ImprovementsSection() {
           </div>
 
           {/* Geographic Proximity */}
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
-            <div className="p-8">
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col h-full">
+            <div className="p-8 flex-grow">
               <h3 className="text-2xl font-light text-gray-900 mb-8">Prime Location</h3>
               
               <ul className="space-y-6">
@@ -227,7 +227,7 @@ export default function ImprovementsSection() {
                   </div>
                   <div>
                     <p className="text-gray-900 font-medium">Growing Community</p>
-                    <p className="text-gray-600 mt-1">Area experiencing growth with new residential  developments</p>
+                    <p className="text-gray-600 mt-1">Area experiencing growth with new residential developments</p>
                   </div>
                 </li>
               </ul>

@@ -2,9 +2,11 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
 
 export default function FloorPlansPage() {
   const [activeUnit, setActiveUnit] = useState("1-bedroom");
+  const router = useRouter();
 
   const building = {
     name: "3635 Dundas Street West, Toronto",
@@ -153,7 +155,10 @@ export default function FloorPlansPage() {
               </div>
 
               {/* Rounded Inquiry Button */}
-              <Button className="w-full mt-6 bg-black hover:bg-gray-800 text-white rounded-full py-3">
+              <Button 
+                onClick={() => router.push('/contact')}
+                className="w-full mt-6 bg-black hover:bg-gray-800 text-white rounded-full py-3"
+              >
                 Inquire About This Unit
               </Button>
             </div>

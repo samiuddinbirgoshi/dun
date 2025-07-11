@@ -9,7 +9,7 @@ export default function ImageGallery() {
   const [isHovered, setIsHovered] = useState(false);
 
   const images = [
-    { src: "/25.jpg", alt: "Building exterior" },
+    // { src: "/25.jpg", alt: "Building exterior" },
     { src: "/26.jpg", alt: "Lobby area" },
     { src: "/27.jpg", alt: "Apartment interior" },
     { src: "/11.jpg", alt: "Amenities" },
@@ -20,7 +20,7 @@ export default function ImageGallery() {
     { src: "/16.jpg", alt: "Bathroom" },
     { src: "/17.jpg", alt: "Balcony view" },
     { src: "/18.jpg", alt: "Gym facility" },
-    { src: "/19.jpg", alt: "Swimming pool" },
+    // { src: "/19.jpg", alt: "Swimming pool" },
     { src: "/20.jpg", alt: "Neighborhood" },
     { src: "/21.jpg", alt: "River view" },
     { src: "/22.jpg", alt: "Kitchen detail" },

@@ -31,8 +31,9 @@ export default function Hero() {
     { name: "Amenities", href: "/amenties" },
     { name: "Floor Plans & Pricing", href: "/floorplans" },
     { name: "Gallery", href: "/gallery" },
+       { name: "Residents", href: "/maintanace"},
     { name: "Contact", href: "/contact" },
-       { name: "Maintainace Requests", href: "/maintanace"},
+      //  { name: "Maintainace Requests", href: "/maintanace"},
   ];
 
 useEffect(() => {

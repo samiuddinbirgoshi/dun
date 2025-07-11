@@ -23,12 +23,12 @@ export default function Amenities() {
     {
       icon: "https://ext.same-assets.com/1166745218/2622735659.svg",
       title: "On-site Parking",
-      description: "Convenient parking with 7 spaces available"
+      description: "Convenient parking with spaces available"
     },
     {
       icon: "https://ext.same-assets.com/1166745218/3590652409.svg",
       title: "Private Outdoor",
-      description: "5 units have private entrances with garden areas"
+      description: "most units have private entrances with garden areas"
     },
     {
       icon: "https://ext.same-assets.com/1166745218/1277326766.svg",
